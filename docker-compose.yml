@@ -1,0 +1,5 @@
+services:
+   webtest:
+    build: .
+    ports:
+      - "8079:80"
